@@ -17,9 +17,10 @@ const Dashboard = () => {
       <Box>
         <Grid container spacing={3}>
           <Grid item xs={12} lg={8}>
-            <SalesOverview />
+            <div>게임 프로젝트 업로드 예정</div>
           </Grid>
-          <Grid item xs={12} lg={4}>
+          
+          {/*<Grid item xs={12} lg={4}>
             <Grid container spacing={3}>
               <Grid item xs={12}>
                 <YearlyBreakup />
@@ -37,7 +38,7 @@ const Dashboard = () => {
           </Grid>
           <Grid item xs={12}>
             <Blog />
-          </Grid>
+          </Grid>*/}
         </Grid>
       </Box>
     </PageContainer>
