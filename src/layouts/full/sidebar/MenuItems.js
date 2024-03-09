@@ -7,14 +7,14 @@ import { uniqueId } from 'lodash';
 const Menuitems = [
   {
     navlabel: true,
-    subheader: 'Home',
+    subheader: ' ',
   },
 
   {
     id: uniqueId(),
-    title: 'Dashboard',
+    title: 'Intro',
     icon: IconLayoutDashboard,
-    href: '/dashboard',
+    href: '/intro',
   },
   {
     navlabel: true,

@@ -3,10 +3,11 @@ import { ReactComponent as LogoDark } from 'src/assets/images/logos/games_logo.s
 import { styled } from '@mui/material';
 
 const LinkStyled = styled(Link)(() => ({
-  paddingTop : '30px',
-  paddingLeft : '10px',
-  width: '180px',
+  marginTop : '70px',
+  marginBottom : '50px',
   display: 'block',
+  justifyContent : 'center',
+  alignItems : 'center'
 }));
 
 const Logo = () => {
